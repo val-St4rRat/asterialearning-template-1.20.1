@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "asterialearning",
+	"version": "${version}",
+	"name": "Asteria Learning",
+	"description": "This is the first mod made by St4rRat as a start to the Asteria Project!",
+	"authors": [
+		"St4Rat"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/asterialearning/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "asteria.stars.testmod.AsteriaLearning"
+		],
+		"client": [
+			"asteria.stars.testmod.AsteriaLearningClient"
+		],
+		"fabric-datagen": [
+			"asteria.stars.testmod.AsteriaLearningDataGenerator"
+		]
+	},
+	"mixins": [
+		"asterialearning.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
