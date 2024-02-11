@@ -1,5 +1,6 @@
 package asteria.stars.testmod;
 
+import asteria.stars.testmod.block.ModBlocks;
 import asteria.stars.testmod.item.ModItemGroups;
 import asteria.stars.testmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,7 +15,9 @@ public class AsteriaLearning implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.registerModBlocks();
+		LOGGER.info("Crimes against modding and taxes!");
 	}
 }

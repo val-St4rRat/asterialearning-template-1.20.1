@@ -1,6 +1,7 @@
 package asteria.stars.testmod.item;
 
 import asteria.stars.testmod.AsteriaLearning;
+import asteria.stars.testmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,7 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ASTERIA_TEAR);
                         entries.add(ModItems.CONTAINED_VIOLENCE);
 
-
+                        entries.add(ModBlocks.THEIASTEEL_PLATING);
 
                     }).build());
 
