@@ -12,9 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item ASTERIA_TEAR = registerItem("asteria_tear", new Item(new FabricItemSettings()));
+    public static final Item THEIASTEEL = registerItem("theiasteel", new Item(new FabricItemSettings()));
 
     private static void AddItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ASTERIA_TEAR);
+        entries.add(THEIASTEEL);
     }
 
 
