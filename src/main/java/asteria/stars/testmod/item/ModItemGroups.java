@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ASTERIA_TEAR)).entries((displayContext, entries) -> {
                         entries.add(ModItems.THEIASTEEL);
                         entries.add(ModItems.ASTERIA_TEAR);
+                        entries.add(ModItems.CONTAINED_VIOLENCE);
 
 
 
