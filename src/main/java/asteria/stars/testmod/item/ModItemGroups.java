@@ -21,6 +21,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.THEIASTEEL_PLATING);
 
+                        entries.add(ModItems.THEIABLADE);
+
                     }).build());
 
 
